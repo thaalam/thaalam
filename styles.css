@@ -468,8 +468,8 @@ video {
 .mail {
   display: flex;
   color: #fdfeff;
-  text-decoration: none;
-
+  text-decoration: underline transparent;
+transition: 0.8s;
   align-items: center;
 }
 .e {
@@ -479,11 +479,10 @@ video {
   padding-bottom: 17px;
 }
 .mail:hover {
-  color: black;
+ text-decoration: underline ;
+
 }
-.e:hover {
-  color: black;
-}
+
 .us {
   font-family: sans-serif;
   letter-spacing: 4px;
@@ -510,10 +509,11 @@ video {
   padding-bottom: 4px;
   overflow: hidden;
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline transparent;
+  transition: 0.8s;
 }
 .in:hover {
-  color: black;
+  text-decoration: underline;
 }
 
 .aboutu {
