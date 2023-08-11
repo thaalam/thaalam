@@ -47,6 +47,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <div class="homepage animate">
@@ -101,8 +102,14 @@
       </ul>
     </div>
     <div class="video">
-      <video autoplay muted loop src="UNLOCKTHERHYTHMOFSILENCE .mp4" class="vid"></video>
-    </div> 
+      <video
+        autoplay
+        muted
+        loop
+        src="UNLOCKTHERHYTHMOFSILENCE .mp4"
+        class="vid"
+      ></video>
+    </div>
     <div class="intro animate">
       <div class="P1 animate">
         <p class="ititle">Who we are</p>
@@ -126,6 +133,9 @@
           alt=""
         />
       </div>
+    </div>
+    <div class="q1" data-aos="fade-right" data-aos-delay="1000">
+      <img src="q1.jpeg" alt="quote" />
     </div>
     <div class="aboutu anime">
       <h2 class="about animate">About Us</h2>
@@ -153,6 +163,9 @@
         </p>
       </div>
       <div class="title2 animate"><h3>Mission</h3></div>
+    </div>
+    <div class="q1" data-aos="fade-right" data-aos-delay="1000">
+      <img src="q2.jpeg" alt="quote" />
     </div>
     <div class="meettheteam animate">
       <p class="mtt animate animate">Meet the team</p>
@@ -222,6 +235,7 @@
         </div>
       </div>
     </div>
+   
 
     <footer class="contacts">
       <div class="I">
@@ -295,10 +309,14 @@
       <div class="II">
         <div class="qr">
           <p class="scan">Scan Here</p>
-          <img class="code"  src="image.png" alt="" />
+          <img class="code" src="image.png" alt="" />
         </div>
       </div>
     </footer>
     <script src="Startup.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>
