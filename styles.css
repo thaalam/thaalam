@@ -15,14 +15,11 @@ body::-webkit-scrollbar {
 .homepage {
   width: 100%;
 }
-body {
-  background-color: #868e96;
-}
 .vid {
   width: 100%;
   height: 100%;
 }
-.video{
+.video {
   height: fit-content;
 }
 h1 {
@@ -126,15 +123,6 @@ ul li:hover ul.dropdown {
   margin-bottom: 8rem;
   font-family: sans-serif;
 }
-.intro .animate {
-  transform: translateX(-2000px);
-}
-.intro.anime .animate {
-  transform: translateX(0);
-}
-div .animate {
-  transition: 1.2s;
-}
 
 .intro {
   height: fit-content;
@@ -146,51 +134,6 @@ div .animate {
   padding: 0 5rem;
   margin-bottom: 8rem;
   font-family: sans-serif;
-}
-.vision .animate {
-  transform: translateX(-2000px);
-}
-.content1 .animate {
-  transform: translateX(-2000px);
-}
-.vision.anime .animate {
-  transform: translateX(-2000px);
-}
-.content1.anime .animate {
-  transform: translateX(0px);
-}
-.mission .animate {
-  transform: translateX(-2000px);
-}
-.about .animate {
-  transform: translateX(-2000px);
-}
-.about.anime .animate {
-  transform: translateX(0);
-}
-.content2 .animate {
-  transform: translateX(-2000px);
-}
-.about .animate {
-  transition: 1s;
-}
-.mission.anime .animate {
-  transform: translateX(0px);
-}
-.content2.anime .animate {
-  transform: translateX(0px);
-}
-.aboutu.anime .animate {
-  transform: translateX(0);
-}
-div .animate {
-  transition: 1.2s;
-}
-.meettheteam .animate {
-  transform: translateX(-2000px);
-}
-.meettheteam.anime .animate {
-  transform: translateX(0);
 }
 
 ul {
@@ -231,13 +174,14 @@ ul {
   margin-right: 40px;
   cursor: pointer;
   border-radius: 16px;
-
+  color: #333;
+  font-family: "Poppins";
+  font-weight: 550;
   padding: 1rem;
 }
 .pro:hover {
-  border: 0px solid;
-  background-color: black;
-  color: white;
+  background-color: transparent;
+  color: #071952;
   transition: all 0.5s;
 }
 .sol:hover {
@@ -328,15 +272,13 @@ ul {
   letter-spacing: 1.9px;
   color: #071952;
   font-family: "Merriweather";
-  display: flex;
+  display: inline;
   font-size: xx-large;
   line-height: 2rem;
+  transition: all 0.6s;
 }
 .about:hover {
   font-size: 38px;
-  transition: all 0.6s;
-  text-decoration: underline;
-  text-decoration-color: #e64980;
 }
 .title2 {
   text-transform: uppercase;
@@ -377,8 +319,12 @@ ul {
   color: #071952;
   width: fit-content;
   background-color: #bec3fc86;
+  box-shadow: 0 0 0 0 ;
+
 }
 .P1:hover {
+  transition: all 0.9s;
+
   box-shadow: 0 0 20px 10px #ced4da;
 }
 .school {
@@ -402,7 +348,7 @@ ul {
 .sto-txt {
   padding-left: 3rem;
 }
-.homepage{
+.homepage {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -413,7 +359,7 @@ video {
   min-width: 100%;
   margin-bottom: 4rem;
 }
-.vid{
+.vid {
   width: 100%;
   overflow: hidden;
 }
@@ -469,7 +415,7 @@ video {
   display: flex;
   color: #fdfeff;
   text-decoration: underline transparent;
-transition: 0.8s;
+  transition: 0.8s;
   align-items: center;
 }
 .e {
@@ -479,10 +425,12 @@ transition: 0.8s;
   padding-bottom: 17px;
 }
 .mail:hover {
- text-decoration: underline ;
-
+  text-decoration: underline;
 }
-
+.quotes {
+  display: flex;
+  justify-content: center;
+}
 .us {
   font-family: sans-serif;
   letter-spacing: 4px;
@@ -519,9 +467,9 @@ transition: 0.8s;
 .aboutu {
   display: flex;
   flex-direction: column;
+  padding: 3rem;
   gap: 2rem;
 }
-
 
 .table-1 {
   display: flex;
@@ -544,7 +492,24 @@ transition: 0.8s;
 }
 
 body {
-  background-color: #ced4da;
+  background-color: white;
+}
+.q1 {
+  max-height: fit-content;
+  margin: 4rem 0;
+  display: flex;
+  background-color:  #bec3fc86 ;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.q{
+  font-size: xx-large;
+  font-family: "Alice";
+  letter-spacing: 0.5rem;
+  color: #071952;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img {
   display: inline-block;
