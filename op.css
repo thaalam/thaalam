@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #e9ecef;
+  background-color: white;
 }
 .nav1 {
   width: 100%;
@@ -37,7 +37,7 @@ ul {
 .pro {
   display: flex;
   align-items: center;
-  color: #333;
+  color: black;
   font-size: 20px;
   font-family: "Poppins";
   font-weight: 550;
