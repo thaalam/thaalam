@@ -101,7 +101,7 @@ ul li:hover ul.dropdown {
   text-decoration: none;
 }
 .ititle {
-  font-size: 44px;
+  font-size: 42px;
   font-weight: bold;
 
   letter-spacing: 1.9px;
@@ -113,11 +113,11 @@ ul li:hover ul.dropdown {
 }
 
 .intro {
-  height: fit-content;
+  max-height: fit-content;
   display: flex;
   padding-bottom: 2rem;
   align-items: center;
-  max-width: 100%;
+  max-width: 50%;
   justify-content: space-between;
   padding: 0 5rem;
   margin-bottom: 8rem;
@@ -140,14 +140,12 @@ ul {
   list-style: none;
 }
 .ititle:hover {
-  text-decoration: underline;
-  text-decoration-color: #e64980;
   transition: all 0.6s;
   font-size: 34px;
   cursor: default;
 }
 .who {
-  height: 274px;
+  height: 9.4rem;
   margin-top: 70px;
   padding: 15px;
   background-color: #868e9660;
@@ -317,10 +315,9 @@ ul {
   padding: 3rem 4rem;
   border-radius: 10px;
   color: #071952;
-  width: fit-content;
+  max-width: 170%;
   background-color: #bec3fc86;
-  box-shadow: 0 0 0 0 ;
-
+  box-shadow: 0 0 0 0;
 }
 .P1:hover {
   transition: all 0.9s;
@@ -498,11 +495,11 @@ body {
   max-height: fit-content;
   margin: 4rem 0;
   display: flex;
-  background-color:  #bec3fc86 ;
+  background-color: #bec3fc86;
   justify-content: center;
   padding: 2rem 0;
 }
-.q{
+.q {
   font-size: xx-large;
   font-family: "Alice";
   letter-spacing: 0.5rem;
@@ -513,8 +510,8 @@ body {
 }
 .img {
   display: inline-block;
-  height: 350px;
-  width: 300px;
+  height: 150px;
+  width: 140px;
   background-image: url("gridtrial.png");
   background-repeat: no-repeat;
   background-size: 150%;
@@ -585,7 +582,7 @@ body {
   margin-bottom: 40px;
 }
 .grid {
-  padding: 2rem 4rem;
+  padding: 2rem 0rem;
   gap: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -594,4 +591,158 @@ body {
 }
 .grid:hover {
   cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .intro {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem;
+    width: 380px;
+  }
+  .P1 {
+    padding: 1rem;
+    max-height: 100vh;
+    width: 380px;
+    transform: translateX(30px);
+  }
+  .ititle {
+    margin: 0;
+  }
+  .I-IN {
+    padding: 1rem;
+    font-weight: 549.5;
+    width: fit-content;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  .P2 {
+    border: 0;
+  }
+  .ititle {
+    font-size: x-large;
+  }
+  .who {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+  .q1 {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    height: 100px;
+    height: fit-content;
+  }
+  .q {
+    font-size: large;
+    letter-spacing: 0;
+    transform: translateX(0px);
+  }
+  .aboutu {
+    padding: 0;
+  }
+  .title1,
+  .title2 {
+    font-size: small;
+  }
+  .contacts {
+    padding: 0.1rem;
+    gap: 2rem;
+  }
+  .content1,
+  .content2 {
+    width: 300px;
+    padding: 2rem;
+    line-height: 1.4rem;
+  }
+  .content11,
+  .content22 {
+    max-width: 250px;
+    transform: translateX(-20px);
+  }
+  .ph,
+  .enve,
+  .ins {
+    height: 20px;
+  }
+  .phone {
+    font-size: 14px;
+  }
+  .instagram {
+    display: flex;
+    align-items: center;
+  }
+  .II {
+    display: flex;
+    transform: translateY(1px);
+  }
+  .scan {
+    font-size: 10px;
+  }
+  .code {
+    height: 60px;
+  }
+  .img {
+    height: 80px;
+    width: 70px;
+  }
+  .position {
+    font-size: 10px;
+  }
+  .name1,
+  .name2,
+  .name3 {
+    font-size: x-small;
+    padding: 0;
+  }
+  .ln {
+    height: 20px;
+  }
+  .meettheteam {
+    padding: 0.2rem;
+  }
+  .thaalam {
+    height: 40px;
+    display: inline;
+  }
+  .ddl {
+    align-items: flex-start;
+    margin-top: 0.5rem;
+  }
+  .pro {
+    padding: 0;
+    font-size: small;
+  }
+  .aboutu {
+    margin-bottom: 2.4rem;
+  }
+  .vision,
+  .mission {
+    padding: 0rem;
+    flex-direction: column;
+    transform: translateX(0px);
+    margin: 0 auto;
+  }
+  .content11,
+  .content22 {
+    font-size: 12px;
+  }
+  .content2 {
+    margin: 0;
+  }
+  .content22 {
+    transform: translateX(-10px);
+  }
+  .content11 {
+    transform: translateX(-5px);
+  }
+  .title1,
+  .title2 {
+    transform: translateX(-50px);
+  }
+  .title1 {
+    transform: translateX(-70px);
+  }
 }

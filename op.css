@@ -78,7 +78,7 @@ ul {
   text-align: justify;
 }
 .no {
-  color: #ced4da;
+  color: #495057;
   font-weight: 800;
   letter-spacing: 2px;
   font-family: "Roboto";
@@ -93,4 +93,32 @@ ul {
 }
 .III{
     max-width: 70%;
+}
+@media(max-width:1200px){
+  .image{
+    display:none;
+  }
+  .para{
+    width: 300px;
+  }
+  .grid2 .para{
+    transform: translateX(-150px);
+  }
+  .ddl {
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+  }
+  .pro {
+    padding: 0;
+    font-size: small;
+  }
+  .thaalam {
+    height: 40px;
+    display: inline;
+    margin-right: 2rem;
+  }
+  .c{
+    font-size: 12px;
+  }
 }

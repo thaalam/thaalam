@@ -1,0 +1,64 @@
+.thaalam {
+  height: 40px;
+  display: inline;
+}
+li {
+  list-style: none;
+}
+.ddl {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-top: 0.5rem;
+  list-style: none;
+}
+.pro {
+  padding: 0;
+  text-decoration: none;
+  font-size: small;
+  color: black;
+}
+.nav1 {
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+  height: 100px;
+  font-family: monospace;
+}
+.none {
+  visibility: hidden;
+}
+.title,.Scan{
+    padding-left: 1rem;
+
+}
+.c-us{
+    font-family: "Inter";
+    background-color: #e9ecef ;
+    padding: 1rem;
+}
+.insta{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.an{
+    text-decoration: none;
+    color: #212529d1;
+}
+.phone{
+    gap: 0.1rem;
+
+}
+.ph{
+    margin-right: 13px;
+}
+.cont{
+    margin-bottom: 4rem;
+}
+.code{
+    height: 100px;
+}
