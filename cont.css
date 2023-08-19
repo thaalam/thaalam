@@ -1,5 +1,5 @@
 .thaalam {
-  height: 40px;
+  height: 60px;
   display: inline;
 }
 li {
@@ -8,7 +8,7 @@ li {
 .ddl {
   display: flex;
   align-items: flex-start;
-  gap: 3rem;
+  gap: 1rem;
   margin-top: 0.5rem;
   list-style: none;
 }
@@ -16,6 +16,7 @@ li {
   padding: 0;
   text-decoration: none;
   font-size: small;
+  font-weight: 500;
   color: black;
 }
 .nav1 {
@@ -26,6 +27,9 @@ li {
   z-index: 999;
   height: 100px;
   font-family: monospace;
+}
+.nav1{
+  padding-left: 0;
 }
 .none {
   visibility: hidden;
